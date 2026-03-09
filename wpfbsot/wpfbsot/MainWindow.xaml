@@ -1,0 +1,45 @@
+﻿<Window x:Class="wpfbsot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpfbsot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="400"
+        Background="LightBlue">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.ColumnSpan="2">
+            <TextBlock HorizontalAlignment="Center" FontSize="25px">Urządzenia Domowe</TextBlock>
+            <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0">Autor: 12345678910</TextBlock>
+        </StackPanel>
+
+        <Image Source="/assets/pralka.jpg" Grid.Row="1" Margin="6px"></Image>
+        <Image Source="/assets/odkurzacz.jpg"  Grid.Row="2" Margin="6px"></Image>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <TextBlock FontSize="25px">Pralka</TextBlock>
+            <TextBox x:Name="washingCycle" Background="SkyBlue" Margin="10,0,10,0">Podaj nr prania 1..12</TextBox>
+            <Button x:Name="cycleConfirm" Background="RoyalBlue" Margin="15px" Height="30px" Foreground="White" Click="cycleConfirm_Click">Zatwierdź</Button>
+            <TextBlock x:Name="selWashingCycle">Numer prania: nie podano</TextBlock>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="1">
+            <TextBlock FontSize="25px">Odkurzacz</TextBlock>
+            <Button x:Name="vacuum" Background="RoyalBlue" Margin="15px" Height="30px" Foreground="White" Click="vacuum_Click">Włącz</Button>
+            <TextBlock x:Name="powerStatus">Odkurzacz wyłączony</TextBlock>
+            <TextBlock>Status: naładowany</TextBlock>
+        </StackPanel>
+    </Grid>
+    
+</Window>

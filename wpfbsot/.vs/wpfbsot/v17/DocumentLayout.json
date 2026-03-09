@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jmaslany\\Desktop\\costamcos\\wpfbsot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2D86170F-009C-49E2-B1D8-416FC7E4CFAF}|wpfbsot\\wpfbsot.csproj|c:\\users\\jmaslany\\desktop\\costamcos\\wpfbsot\\wpfbsot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2D86170F-009C-49E2-B1D8-416FC7E4CFAF}|wpfbsot\\wpfbsot.csproj|solutionrelative:wpfbsot\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D86170F-009C-49E2-B1D8-416FC7E4CFAF}|wpfbsot\\wpfbsot.csproj|c:\\users\\jmaslany\\desktop\\costamcos\\wpfbsot\\wpfbsot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D86170F-009C-49E2-B1D8-416FC7E4CFAF}|wpfbsot\\wpfbsot.csproj|solutionrelative:wpfbsot\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jmaslany\\Desktop\\costamcos\\wpfbsot\\wpfbsot\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "wpfbsot\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jmaslany\\Desktop\\costamcos\\wpfbsot\\wpfbsot\\MainWindow.xaml",
+              "RelativeToolTip": "wpfbsot\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-09T06:33:54.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jmaslany\\Desktop\\costamcos\\wpfbsot\\wpfbsot\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "wpfbsot\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jmaslany\\Desktop\\costamcos\\wpfbsot\\wpfbsot\\MainWindow.xaml.cs",
+              "RelativeToolTip": "wpfbsot\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-09T06:33:50.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
